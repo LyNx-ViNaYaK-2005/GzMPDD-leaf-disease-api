@@ -15,6 +15,28 @@ A full-stack, real-time plant disease detection application built with **FastAPI
 
 ---
 
+## 📁 Repository Structure
+
+```text
+gzmpdd-leaf-disease-api/
+│
+├── api/
+│   ├── __init__.py                # Package marker
+│   └── main.py                    # FastAPI routes, model initialization, StaticFiles mount
+│
+├── frontend/
+│   ├── index.html                 # Main web UI layout with Canvas container
+│   ├── style.css                  # Modern UI styles & layout rules
+│   └── script.js                  # Frontend logic: Fetch API & HTML5 Canvas drawing
+│
+├── weights/
+│   └── best_model_weights_246epochs.pt  # Trained YOLOv8 model weights
+│
+├── .gitignore                     # Git tracking exclusions
+├── LICENSE                        # Open-source MIT License
+├── README.md                      # Comprehensive project documentation
+└── requirements.txt               # Dependencies required to run the API server
+
 ## 🛠️ Tech Stack
 
 - **Backend:** FastAPI, Uvicorn, PyTorch, Ultralytics (YOLOv8)
