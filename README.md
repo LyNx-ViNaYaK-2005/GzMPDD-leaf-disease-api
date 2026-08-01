@@ -36,7 +36,6 @@ gzmpdd-leaf-disease-api/
 ├── LICENSE                        # Open-source MIT License
 ├── README.md                      # Comprehensive project documentation
 └── requirements.txt               # Dependencies required to run the API server
-
 ---
 
 ## 🛠️ Tech Stack
