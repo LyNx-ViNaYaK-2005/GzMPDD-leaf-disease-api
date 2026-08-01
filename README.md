@@ -45,3 +45,15 @@ gzmpdd-leaf-disease-api/
 - **Backend:** FastAPI, Uvicorn, PyTorch, Ultralytics (YOLOv8)
 - **Frontend:** HTML5, CSS3, Modern JavaScript (Fetch API & Canvas API)
 - **Deployment & Tooling:** Postman, Python 3.10+
+
+  ---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, distribute, and sublicense this software, provided that the original copyright and license notice are included in all copies or substantial portions of the software.
+
+See the [LICENSE](LICENSE) file for the full license text.
+
+---
