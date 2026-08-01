@@ -1,0 +1,14 @@
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Large model files (if you exceed GitHub's 100MB limit, keep .pt local or use LFS)
+# weights/*.pt
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
