@@ -37,6 +37,8 @@ gzmpdd-leaf-disease-api/
 ├── README.md                      # Comprehensive project documentation
 └── requirements.txt               # Dependencies required to run the API server
 
+---
+
 ## 🛠️ Tech Stack
 
 - **Backend:** FastAPI, Uvicorn, PyTorch, Ultralytics (YOLOv8)
