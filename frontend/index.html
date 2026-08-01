@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GzMPDD - Plant Leaf Disease Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍃 GzMPDD Leaf Disease Detector</h1>
+            <p>Upload a plant leaf image to detect diseases using YOLOv8</p>
+        </header>
+
+        <main>
+            <!-- Upload Box -->
+            <div class="upload-card">
+                <input type="file" id="imageInput" accept="image/*" hidden>
+                <button id="uploadBtn" class="btn">Choose Image</button>
+                <span id="fileName">No file chosen</span>
+                <button id="detectBtn" class="btn btn-primary" disabled>Analyze Leaf</button>
+            </div>
+
+            <!-- Loader -->
+            <div id="loader" class="loader hidden"></div>
+
+            <!-- Preview & Canvas Section -->
+            <div class="display-section">
+                <div id="canvasWrapper" class="canvas-wrapper hidden">
+                    <canvas id="outputCanvas"></canvas>
+                </div>
+            </div>
+
+            <!-- Results List -->
+            <div id="resultsCard" class="results-card hidden">
+                <h3>Detection Results</h3>
+                <ul id="detectionsList"></ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
